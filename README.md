@@ -1,13 +1,13 @@
 <p align="center">
-  <img width="25%" src="readmesrc/av.png" />
+  <img width="50px" src="readmesrc/av.png" />
 </p>
 
 <h1>Starthome</h1>
 
 <p align="center">
-<a href="#About"><img src="readmesrc/about.png"></a>
-<a href="#Preview"><img src="readmesrc/preview.png"></a>
-<a href="#Setup"><img src="readmesrc/setup.png"></a>
+<a href="#About"><img src="readmesrc/about.png" width="25%"></a>
+<a href="#Preview"><img src="readmesrc/preview.png" width="25%"></a>
+<a href="#Setup"><img src="readmesrc/setup.png" width="25%"></a>
 </p>
 
 ## About
