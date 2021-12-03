@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" src="readmesrc/av.png" />
+  <img width="100px" src="readmesrc/av.png" />
 </p>
 
 <h1>Starthome</h1>
