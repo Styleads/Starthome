@@ -5,9 +5,9 @@
 
 
 <p align="center">
-<a href="#About"><img src="readmesrc/about.png" width="25%"></a>
-<a href="#Preview"><img src="readmesrc/preview.png" width="25%"></a>
-<a href="#Setup"><img src="readmesrc/setup.png" width="25%"></a>
+<a href="#About"><img src="readmesrc/about.png" width="30%"></a>
+<a href="#Preview"><img src="readmesrc/preview.png" width="30%"></a>
+<a href="#Setup"><img src="readmesrc/setup.png" width="30%"></a>
 </p>
 
 ## About
