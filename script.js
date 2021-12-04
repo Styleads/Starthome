@@ -1,42 +1,18 @@
-function showTime() {
-	const date = new Date();
-
-	let today = date.toLocaleString("en", { weekday: "long" });
-	let hour = date.toLocaleString("pl", { hour: "2-digit" }); // uses 24h time format
-	let minute = date.toLocaleString("en", { minute: "2-digit" });
-	let second = date.toLocaleString("en", { second: "2-digit" });
-	let day = date.toLocaleString("en", { day: "2-digit" });
-	let month = date.toLocaleString("en", { month: "2-digit" });
-	let year = date.toLocaleString("en", { year: "numeric" });
-
-	minute = addZero(minute);
-	second = addZero(second);
-
-
-	document.getElementById(
-		"date"
-	).innerHTML = `${today}, ${hour} : ${minute} : ${second}  | ${day}/${month}/${year}`;
-	setTimeout(showTime, 0);
-}
-
-function addZero(i) {
-	if (i.length < 2) i = "0" + i;
-	return i;
-}
-
-showTime();
-
-document.getElementById("se_button").addEventListener("click", function() {
-  se++;
-  cycleSearchEngines(se);
+window.addEventListener('load', (event) => {
+  let today = new Date();
+  let time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  displayTime(time);
 });
 
-function check_if_search_empty(event) {
+setInterval(function () {
+  var today = new Date();
+  var time = today.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  document.getElementById("time").innerHTML = time;
+}, 1000);
 
-  if (document.forms["search_eng_form"]["q"].value == "") {
-    event.preventDefault();
-  }
-} 
+function displayTime(time) {
+  document.getElementById("time").innerHTML = time;
+}
 
 const search_engines = [{
   src: "goog.svg",
