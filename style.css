@@ -12,11 +12,10 @@ body {
 
 h1 {
   color: #9a9b9c;
+  font-size: 75px;
   animation: glitch 1s linear infinite;
 }
-h3 {
-  color: #9a9b9c
-}
+
 
 .search_block {
   display: flex;
@@ -123,6 +122,7 @@ ul li a {
   font-size: 40px;
   color: #666;
   transition: .5s;
+
 }
 
 ul li a::before {
