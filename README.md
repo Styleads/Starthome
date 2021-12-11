@@ -24,13 +24,17 @@ Starthome is a minimalistic and simp startpage/homepage with a navigation bar wi
 
 <h2>Local</h2>
 <p>
+<ul>
+<li>
 1. Install the extension - <a href"https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna">chrome</a>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/">firefox</a>
+  
 2. Install the Startpage zip and unzip it
 3. Open the index.html file
 4. Copy the file location in the url box
 5. Paste it in the Extensions url box and save it
 6. Done
+</ul>
 </p>
 <h2>Hosted</h2>
 <p>
