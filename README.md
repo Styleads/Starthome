@@ -28,9 +28,13 @@ Starthome is a minimalistic and simp startpage/homepage with a navigation bar wi
 <li>
 1. Install the extension - <a href"https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna">chrome</a>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/">firefox</a>
-  
+</li>
+<li>  
 2. Install the Startpage zip and unzip it
+</li>
+<li>
 3. Open the index.html file
+</li>
 4. Copy the file location in the url box
 5. Paste it in the Extensions url box and save it
 6. Done
